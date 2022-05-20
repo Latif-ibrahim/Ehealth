@@ -7,8 +7,11 @@ function Register() {
     <div>
       <NavBar/>
       <form>
-  <div className="container-1">
-    <h1>Sign Up</h1>
+        <div className="container-1">
+          <div className="banner">
+          <h1>SIGN UP</h1>
+        </div>
+
     <p>Please fill in this form to create an account.</p>
     <hr/>
 
@@ -34,11 +37,11 @@ function Register() {
 
     <div className="clearfix-1">
       <button type="button-1" className="cancelbtn-1">Cancel</button>
-      <button type="submit" className="signupbtn-1">Sign Up</button>
+      <button type="submit" className="signupbtn-1"><Link to="/register">Sign Up</Link></button>
     </div>
       </div>
       <div className="container">
-    <span className="paaa">I Already have an account<Link to="/login">Login</Link></span>
+    <span className="paaa">I Already have an account<Link to="/">Login</Link></span>
         </div>
       </form>
       </div>

@@ -9,6 +9,7 @@ function Home() {
       <div>
         <div className="banner-2">
           <a href="Tel">Main Line. +233 (0) 241-650-140</a>
+          <a href="Tel">Mobile. +233 (0) 246-189-123</a>
           <a href="Tel">WhatsApp No. +233 (0) 241-650-140</a>
         </div>
 

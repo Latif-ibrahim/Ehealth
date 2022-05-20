@@ -5,8 +5,11 @@ import NavBar from '../components/NavBar'
 function Login() {
   return (
     <div>
-      <NavBar/>
-      <h2>LogIn</h2>
+    
+      <div className="banner">
+          <h1>LOGIN</h1>
+        </div>
+    
 
 <form>
   <div className="imgcon">
@@ -21,7 +24,7 @@ function Login() {
           <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" required></input>
         
-    <button type="submit">Login</button>
+    <button className="button-4" type="submit"><Link to="/home">Login</Link></button>
     <label>
       <input type="checkbox" checked="checked" /> Remember me
     </label>

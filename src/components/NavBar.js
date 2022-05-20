@@ -24,7 +24,7 @@ function NavBar() {
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-            <Link to="/partiners">Our Partners</Link>
+            <Link to="/about">Our Partners</Link>
             <Link to="/medicalteam">Our Medical Team</Link>
             <Link to="/">Contact</Link>
     </div>
@@ -48,8 +48,8 @@ function NavBar() {
       <i class="fa fa-caret-down"></i>
     </button>
           <div class="dropdown-content">
-            <Link to="/">Notice Of Privacy Practice</Link>
-            <Link to="/">Terms Of Use</Link>
+            <Link to="/privacypractice">Notice Of Privacy Practice</Link>
+            <Link to="/teamsuse">Terms Of Use</Link>
     </div>
   </div> 
       </ul>

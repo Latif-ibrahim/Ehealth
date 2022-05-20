@@ -11,6 +11,9 @@ import MedicalConsult from './context/MedicalConsult'
 import DrugDelivery from './context/DrugDelivery'
 import LabServices from './context/LabServices'
 import DoctorLogin from './context/DoctorLogin'
+import TeamsUse from './context/TeamsUse'
+import PrivacyPractice from './context/PrivacyPractice'
+import Contact from './context/Contact'
 
 function App() {
   return (
@@ -19,17 +22,17 @@ function App() {
       <div className="app">
         <Routes>
         
-        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/home" element={<Home />} />
-
-          
-          <Route path="/partiners" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/medicalteam" element={<MedicalTeam />} />
           <Route path="/medicalconsult" element={<MedicalConsult />} />
           <Route path="/drugDelivery" element={<DrugDelivery />} />
           <Route path="/labServices" element={<LabServices />} />
           <Route path="/doctorLogin" element={<DoctorLogin />} />
+          <Route path="/teamsuse" element={<TeamsUse />} />
+          <Route path="/privacypractice" element={<PrivacyPractice />} />
         </Routes>
       </div>
      

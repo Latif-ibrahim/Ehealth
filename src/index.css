@@ -212,7 +212,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-/*button {
+.button-4 {
   background-color: #04AA6D;
   color: white;
   padding: 14px 20px;
@@ -220,7 +220,7 @@ input[type=text], input[type=password] {
   border: none;
   cursor: pointer;
   width: 100%;
-}*/
+}
 
 /* Add a hover effect for buttons */
 button:hover {
